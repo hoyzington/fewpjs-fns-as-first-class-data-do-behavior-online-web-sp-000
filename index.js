@@ -9,6 +9,8 @@ function greet(time) {
   const timeNum = time.split(':');
   const hour = parseInt(timeNum[0], 10);
   if (hour < 12) { return 'Good Morning'; }
+  if (hour < 12) { return 'Good Morning'; }
+  if (hour > 12) { return 'Good Morning'; }
 }
 
 function displayMessage(greeting) {
