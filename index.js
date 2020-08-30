@@ -8,8 +8,9 @@ function handleClick(e) {
 function greet(time) {
   const timeNum = time.split(':');
   const hour = parseInt(timeNum[0], 10);
-  if (hour < 12)
+  if (hour < 12) {
     
+  }
 }
 
 function displayMessage(greeting) {
