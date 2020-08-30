@@ -6,8 +6,8 @@ function handleClick(e) {
 }
 
 function greet(time) {
-  const timeNum = 
-  if (time )
+  const timeNum = time.split()
+  if (timeNum <  )
 }
 
 function displayMessage(greeting) {
