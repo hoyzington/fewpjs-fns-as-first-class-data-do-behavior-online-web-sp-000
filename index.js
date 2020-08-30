@@ -16,5 +16,5 @@ function greet(time) {
 }
 
 function displayMessage(greeting) {
-  el = document.
+  el = document.querySelector('#greeting')
 }
