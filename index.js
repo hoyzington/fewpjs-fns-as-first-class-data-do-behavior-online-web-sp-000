@@ -16,6 +16,5 @@ function greet(time) {
 }
 
 function displayMessage(message) {
-  el = document.querySelector('#greeting');
-  el.innerText = message;
+  document.querySelector('#greeting').textContent = 'message';
 }
