@@ -15,6 +15,7 @@ function greet(time) {
   if (timeNum > 17) { return 'Good Evening'; }
 }
 
-function displayMessage(greeting) {
+function displayMessage(message) {
   el = document.querySelector('#greeting');
+  el.innerText = message;
 }
